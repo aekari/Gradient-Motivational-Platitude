@@ -1,7 +1,14 @@
 $(document).ready(function () {
 
-    $(".quote").hide();
-    $(".flexboxchild").on('click', function () {
-        $(this).find('.quote').toggle();
+    var $allQuotes = $('.flexboxchild .quote'); // variable that selects every .quote within .flexboxchild
+    var $allFlexBoxes = $('.flexboxchild'); // variable that selects every .flexboxchild
+
+    $($allQuotes).hide(); // hide all the quotes first, then
+
+    $('.flexboxchild').on('click', function () { // when a .flexboxchild is clicked
+        var $this = $(this).find('.quote'); // variable that finds the .quote within the .flexboxchild that was clicked
+
+        $($this).toggle(); // toggle the specific .quote
+        $($allQuotes).not($this).hide(); // hide all the other .quotes
     });
 });
