@@ -8,7 +8,7 @@ $(document).ready(function () {
     $('.flexboxchild').on('click', function () { // when a .flexboxchild is clicked
         var $this = $(this).find('.quote'); // variable that finds the .quote within the .flexboxchild that was clicked
 
-        $($this).toggle(); // toggle the specific .quote
+        $($this).fadeToggle(); // fadeToggle the specific .quote
         $($allQuotes).not($this).hide(); // hide all the other .quotes
     });
 });
