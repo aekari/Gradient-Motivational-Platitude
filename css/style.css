@@ -1,143 +1,129 @@
 	@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-.title {
-	text-align: center;
-	margin: 4% auto;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 800;
-}
-
-.container {
-	display: flex;
-	flex-flow: wrap;
-	justify-content: center;
-	align-content: space-between;
-	font-family: 'Montserrat', sans-serif;
-	font-style: italic;
-	text-align: center;
-	align-items: center;
-	padding: 0 10%;
-}
-
-.flexboxchild {
-	width: 200px;
-	height: 200px;
-	padding: 9% 2%;
-}
-
-
-/*--FLEXBOX CHILD OBJECTS--*/
-
-.child1 {
-	background: rgb(34, 193, 195);
-	background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
-}
-
-.child2 {
-	background: rgb(203, 202, 165);
-	background: radial-gradient(circle, rgba(203, 202, 165, 1) 0%, rgba(51, 77, 80, 1) 100%);
-}
-
-.child3 {
-	background: rgb(220, 227, 91);
-	background: linear-gradient(90deg, rgba(220, 227, 91, 1) 0%, rgba(69, 182, 73, 1) 100%);
-}
-
-.child4 {
-	background: rgb(236, 0, 140);
-	background: linear-gradient(0deg, rgba(236, 0, 140, 1) 0%, rgba(252, 103, 103, 1) 100%);
-}
-
-.child5 {
-	background: rgb(255, 81, 47);
-	background: radial-gradient(circle, rgba(255, 81, 47, 1) 0%, rgba(240, 152, 25, 1) 100%);
-}
-
-.child6 {
-	background: rgb(151, 150, 240);
-	background: linear-gradient(90deg, rgba(151, 150, 240, 1) 0%, rgba(251, 199, 212, 1) 100%);
-}
-
-.child7 {
-	background: rgb(172, 182, 229);
-	background: linear-gradient(0deg, rgba(172, 182, 229, 1) 0%, rgba(134, 253, 232, 1) 100%);
-}
-
-.child8 {
-	background: rgb(183, 152, 145);
-	background: radial-gradient(circle, rgba(183, 152, 145, 1) 0%, rgba(148, 113, 107, 1) 100%);
-}
-
-.child9 {
-	background: rgb(35, 37, 38);
-	background: linear-gradient(90deg, rgba(35, 37, 38, 1)0%, rgba(65, 67, 69, 1) 100%);
-}
-
-
-/*--FOOTER--*/
-
-footer {
-	padding: 5%;
-	background-color: #000;
-	color: #fff;
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-}
-
-
-/*--COLORS, LINKS--*/
-
-a {
-	color: #fff;
-}
-
-.fonteffect {
-	color: #efefef;
-	font-weight: 800;
-	text-transform: uppercase;
-}
-
-.subtext {
-	font-weight: 400;
-}
-
-
-/*--JS STUFF--*/
-
-
-/*-class for all the quotes--*/
-
-.quote {}
-
-/*--MEDIA QUEIRIES--*/
-
-@media only screen and (max-width: 750px) {
+	* {
+	    box-sizing: border-box;
+	    margin: 0;
+	    padding: 0;
+	}
+	main {
+	    font-family: 'Montserrat', sans-serif;
+	}
+	.title {
+	    text-align: center;
+	    margin: 1em 0 1em 0;
+	    font-weight: 800;
+	    font-size: 1em;
+	}
 	.container {
-		padding: 0;
+	    display: flex;
+	    flex-flow: row wrap;
+	    align-items: center;
+	    padding: 0 10%;
+	    font-style: italic;
 	}
 	.flexboxchild {
-		width: 200px;
-		height: 200px;
-		padding: 14% 5%;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    width: 33.33%;
+	    height: 200px;
+	    padding: 0 2%;
 	}
-}
-
-@media only screen and (max-width: 600px) {
-	.container {
-		flex-flow: column;
-		justify-content: center;
-		align-content: space-around;
-		align-items: center;
-		padding: 0%;
+	/*--FLEXBOX CHILD OBJECTS--*/
+	
+	.child1 {
+	    background: rgb(34, 193, 195);
+	    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
 	}
-	.flexboxchild {
-		width: 75%;
-		padding: 17% 5%;
+	.child2 {
+	    background: rgb(203, 202, 165);
+	    background: radial-gradient(circle, rgba(203, 202, 165, 1) 0%, rgba(51, 77, 80, 1) 100%);
 	}
-}
+	.child3 {
+	    background: rgb(220, 227, 91);
+	    background: linear-gradient(90deg, rgba(220, 227, 91, 1) 0%, rgba(69, 182, 73, 1) 100%);
+	}
+	.child4 {
+	    background: rgb(236, 0, 140);
+	    background: linear-gradient(0deg, rgba(236, 0, 140, 1) 0%, rgba(252, 103, 103, 1) 100%);
+	}
+	.child5 {
+	    background: rgb(255, 81, 47);
+	    background: radial-gradient(circle, rgba(255, 81, 47, 1) 0%, rgba(240, 152, 25, 1) 100%);
+	}
+	.child6 {
+	    background: rgb(151, 150, 240);
+	    background: linear-gradient(90deg, rgba(151, 150, 240, 1) 0%, rgba(251, 199, 212, 1) 100%);
+	}
+	.child7 {
+	    background: rgb(172, 182, 229);
+	    background: linear-gradient(0deg, rgba(172, 182, 229, 1) 0%, rgba(134, 253, 232, 1) 100%);
+	}
+	.child8 {
+	    background: rgb(183, 152, 145);
+	    background: radial-gradient(circle, rgba(183, 152, 145, 1) 0%, rgba(148, 113, 107, 1) 100%);
+	}
+	.child9 {
+	    background: rgb(35, 37, 38);
+	    background: linear-gradient(90deg, rgba(35, 37, 38, 1)0%, rgba(65, 67, 69, 1) 100%);
+	}
+	/*--FOOTER--*/
+	
+	footer {
+	    margin: 1em 0 0 0;
+	    padding: 20px;
+	    text-align: center;
+	    font-weight: 400;
+	    background-color: #000;
+	    color: #efefef;
+	}
+	/*--COLORS, LINKS--*/
+	
+	a {
+	    color: #fff;
+	}
+	/*--for the .quote font stylings--*/
+	/*--JS STUFF--*/
+	/*-class for all the quotes--*/
+	
+	.quote {
+	    color: #efefef;
+	    font-weight: 800;
+	    text-transform: uppercase;
+	    font-size: 1.2em;
+	    text-align: center;
+	}
+	/*--MEDIA QUEIRIES--*/
+	
+	@media only screen and (max-width: 615px) {
+	    .title {
+	        font-size: .7em;
+	        transition-duration: .5s;
+	        transition-timing-function: linear;
+	        -webkit-transition-duration: .5s;
+	        -webkit-transition-timing-function: linear;
+	        -moz-transition-duration: .5s;
+	        -moz-transition-timing-function: linear;
+	        -o-transition-duration: .5s;
+	        -o-transition-timing-function: linear;
+	    }
+	    .container {
+	        flex-flow: column nowrap;
+	        padding: 0%;
+	    }
+	    .flexboxchild {
+	        width: 75%;
+	        -webkit-transition-property: all;
+	        -webkit-transition-duration: .5s;
+	        -moz-transition-property: all;
+	        -moz-transition-duration: .5s;
+	        -o-transition-property: all;
+	        -o-transition-duration: .5s;
+	        transition-property: all;
+	        transition-duration: .5s;
+	    }
+	}
+	@media only screen and (min-width: 900px) {
+	    .flexboxchild {
+	        max-width: 300px;
+	    }
+	}
