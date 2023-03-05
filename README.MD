@@ -1,5 +1,5 @@
 # Gradient Motivational Platitude
-*For when you need a little motivation.* View it live [**here**](https://aekari.github.io/Gradient-Motivational-Platitude/).
+For when you need a little motivation. View it live [**here**](https://aekari.github.io/Gradient-Motivational-Platitude/).
 
 <img src="https://i.imgur.com/hbNmm0u.png" width=50%>
 
