@@ -1,10 +1,17 @@
-# Free Motivational Platitudes
-**Instructions:** Click the gradient boxes and get a free motivational platidude because you're worth it. View the live version [here](https://aekari.github.io/Gradient-Motivational-Platitude/).
+# Gradient Motivational Platitude
+#### *For when you need a little motivation.* View it live [here](https://aekari.github.io/Gradient-Motivational-Platitude/).
 
-![](https://i.imgur.com/hbNmm0u.png)
+<img src="https://i.imgur.com/hbNmm0u.png" width=50%>
 
-Created by [@aekari](https://github.com/aekari) with the help of these resources:
-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-- http://hex2rgba.devoth.com
-- https://uigradients.com
-- http://ianlunn.github.io/Hover/#effects
+## Instructions
+1. Visit the [site](https://aekari.github.io/Gradient-Motivational-Platitude/).<br>
+2. Pause a moment to pick a the gradient box you feel drawn to.<br>
+3. Click the box and read your message (or, click all of them).<br> 
+
+## Technologies Used
+
+* ![](https://img.shields.io/badge/-HTML-black.svg?style=flat-square&logo=html5&colorB=000)
+* ![](https://img.shields.io/badge/-CSS-black.svg?style=flat-square&logo=css3&colorB=000)
+* ![](https://img.shields.io/badge/-JS-black.svg?style=flat-square&logo=JavaScript&colorB=000)
+<br><br>
+Copyright © Ashleigh Nichols
