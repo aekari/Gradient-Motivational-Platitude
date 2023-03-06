@@ -1,12 +1,11 @@
 # Gradient Motivational Platitude
 For when you need a little motivation. View it live [**here**](https://aekari.github.io/Gradient-Motivational-Platitude/).
 
-<img src="https://i.imgur.com/hbNmm0u.png" width=50%>
-
 ## Instructions
 1. Visit the [site](https://aekari.github.io/Gradient-Motivational-Platitude/).<br>
 2. Pause a moment to pick a gradient box you feel drawn to.<br>
-3. Click the box and read your message (or, click all of them).<br> 
+3. Click the box and read your message (or, click all of them).<br>
+<img src="https://i.imgur.com/hbNmm0u.png" width=50%>
 
 ## Technologies Used
 
