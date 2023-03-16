@@ -1,11 +1,11 @@
 # Gradient Motivational Platitude
 
-For when you need some clichéd motivation. View it live [**here**](https://aekari.github.io/Gradient-Motivational-Platitude/).
+For those moments in life when you need the perfect motivational cliché. View it live [**here**](https://aekari.github.io/Gradient-Motivational-Platitude/).
 
 ## Instructions
 1. Visit the [site](https://aekari.github.io/Gradient-Motivational-Platitude/).<br>
 2. Pause a moment to pick a gradient box you feel drawn to.<br>
-3. Click the box and read your message (or, click all of them).<br>
+3. Click the box and recieve a motivational platitude (or, click all of them).<br>
 <img src="https://i.imgur.com/hbNmm0u.png" width=50%>
 
 ## Technologies Used
